@@ -181,12 +181,7 @@ hr {
   margin-top: 160px;
 }
 
-.side {
-  /* padding: 50px 100px 100px 100px; */
-}
-
 .lower2 {
-  /* margin-top: 10px; */
   height: 100px;
   width: 100px;
   text-align: right;
@@ -200,7 +195,6 @@ h2 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 80px;
-  /* margin-left: 100px; */
   padding: 30px;
 }
 
@@ -209,22 +203,19 @@ h2 {
   margin: 50px;
 }
 
-.side_right {
-  padding-top: 60px;
+.text_align {
+  margin-left: -680px;
 }
 
 .pic_align {
   position: relative;
-  padding-top: 100px;
+  margin-top: 130px;
 }
-
-/* .pic_position {
-  position: absolute;
-} */
 
 #pp1 {
   position: absolute;
-  top: 10px;
+  top: 20px;
+  right: 25px;
 }
 
 #pp2 {
