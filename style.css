@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .starter {
   background-color: #f9efed;
 }
@@ -11,7 +15,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  margin-top: 0em;
+  margin-right: 2em;
 }
 
 .child {
@@ -19,7 +23,9 @@
 }
 
 .logo_main {
-  font-size: 30px;
+  margin: 40px;
+  font-size: 40px;
+  font-family: MuseoModerno;
 }
 
 .mid {
@@ -37,12 +43,12 @@
 .button_primary {
   background: black;
   color: white;
-  padding: 8px;
+  padding: 20px;
 }
 
 .button_secondary {
   background: white;
-  padding: 8px;
+  padding: 20px;
 }
 
 .navbar {
@@ -62,16 +68,32 @@ img {
 
 .button {
   padding: 30px;
-  margin-left: -1em;
+  margin-left: -0.3em;
   background: tomato;
 }
+
+.button9 {
+  padding: 29px;
+  margin-left: -0.3em;
+  background: white;
+  border: none;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+}
+
+.log {
+  height: 80px;
+  width: 140px;
+  margin-bottom: -35px;
+  opacity: 0.2;
 }
 
 .page2 {
-  padding-top: 200px;
+  padding-top: 150px;
 }
 
 .logo {
@@ -99,6 +121,11 @@ img {
   justify-content: space-evenly;
 }
 
+.img7 {
+  height: 50px;
+  width: 50px;
+}
+
 .box {
   height: 200px;
   width: 200px;
@@ -106,8 +133,14 @@ img {
   padding-top: 2em;
 }
 
+#t {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 #one {
   background: #f9efed;
+  font-weight: ;
 }
 
 #two {
@@ -120,8 +153,13 @@ img {
 }
 
 .page3 {
-  margin-top: 200px;
+  margin-top: 100px;
   background-color: #f9efed;
+}
+
+.nav9 {
+  color: tomato;
+  font-size: 13px;
 }
 
 .nav3 {
@@ -192,6 +230,14 @@ hr {
   text-align: right;
 }
 
+.button3 {
+  padding: 25px;
+  margin-top: 55.59em;
+  margin-right: 10em;
+  background: tomato;
+  color: white;
+}
+
 h2 {
   font-weight: lighter;
 }
@@ -225,16 +271,36 @@ h2 {
 #pp1 {
   position: absolute;
   top: 10px;
+  left: -12px;
 }
 
 #pp2 {
   position: absolute;
-  right: 332px;
-  top: 130px;
+  right: 350px;
+  top: 110px;
 }
 
 #pp3 {
   position: absolute;
   top: 370px;
   right: 100px;
+}
+
+.last_box {
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background: linear-gradient(to bottom, #000000 0%, #727272 100%);
+  color: #e8e4e4;
+  padding: 160px;
+  font-size: 2.7rem;
+}
+
+.do {
+  margin: 5em;
+}
+
+#opacity {
+  opacity: 0.5;
+  font-weight: bold;
 }
